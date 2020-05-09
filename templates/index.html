@@ -1,0 +1,14 @@
+<!--pip install Authlib Flask-->
+<!--pip install requests-->
+<!--python -m flask run host=localhost port=8000-->
+
+
+<html>
+  <head>
+    <title>Don't Touch Your Face</title>
+  </head>
+  <body>
+    <h1>Don't Touch Your Face</h1>
+    <img src="{{ url_for('video_feed') }}">
+  </body>
+</html>
